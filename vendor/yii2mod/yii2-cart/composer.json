@@ -1,0 +1,27 @@
+{
+    "name": "yii2mod/yii2-cart",
+    "description": "Yii2 Shopping cart",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Semenov",
+            "email": "disemx@gmail.com"
+        },
+        {
+            "name": "Igor Chepurnoy",
+            "email": "igorzfort@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "~1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2mod\\cart\\": ""
+        }
+    }
+}
